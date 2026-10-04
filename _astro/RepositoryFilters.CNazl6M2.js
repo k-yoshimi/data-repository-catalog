@@ -1,4 +1,4 @@
-import{r as e,t}from"./react.PW3a4ccH.js";import{n,t as r}from"./translate.BWFHh_Zn.js";import{t as i}from"./jsx-runtime.C8LJVCHC.js";import{t as a}from"./rel-time.6f4JtDhl.js";var o=e(t(),1),s=i();function c({value:e,onChange:t,placeholder:n,ariaLabel:r}){return(0,s.jsxs)(`div`,{className:`searchbox`,children:[(0,s.jsx)(`input`,{type:`search`,value:e,onChange:e=>t(e.target.value),placeholder:n,"aria-label":r}),(0,s.jsx)(`style`,{children:`
+import{r as e,t}from"./react.PW3a4ccH.js";import{n,t as r}from"./translate.Bsy-N_LX.js";import{t as i}from"./jsx-runtime.C8LJVCHC.js";import{t as a}from"./rel-time.6f4JtDhl.js";var o=e(t(),1),s=i();function c({value:e,onChange:t,placeholder:n,ariaLabel:r}){return(0,s.jsxs)(`div`,{className:`searchbox`,children:[(0,s.jsx)(`input`,{type:`search`,value:e,onChange:e=>t(e.target.value),placeholder:n,"aria-label":r}),(0,s.jsx)(`style`,{children:`
         .searchbox { position: relative; display: flex; align-items: center; gap: 10px; }
         .searchbox input {
           flex: 1;
