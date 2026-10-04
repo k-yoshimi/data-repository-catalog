@@ -1,0 +1,1 @@
+function e(e,t=`ja`,n=Date.now()){if(!e)return``;let r=Math.floor((n-Date.parse(e))/864e5);if(Number.isNaN(r))return``;let i=new Intl.RelativeTimeFormat(t,{numeric:`auto`});return r<1?i.format(0,`day`):r<30?i.format(-r,`day`):r<365?i.format(-Math.round(r/30),`month`):i.format(-Math.round(r/365),`year`)}export{e as t};
